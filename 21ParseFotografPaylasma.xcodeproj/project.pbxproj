@@ -13,6 +13,12 @@
 		306C745D2995812D009E5CBD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 306C745B2995812D009E5CBD /* Main.storyboard */; };
 		306C745F2995812F009E5CBD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 306C745E2995812F009E5CBD /* Assets.xcassets */; };
 		306C74622995812F009E5CBD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 306C74602995812F009E5CBD /* LaunchScreen.storyboard */; };
+		30A9E0C629A026D80001026F /* AyarlarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A9E0C529A026D80001026F /* AyarlarViewController.swift */; };
+		30CB7ABD299A6D41003446B3 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CB7ABC299A6D41003446B3 /* FeedViewController.swift */; };
+		30CB7ABF299A6D6A003446B3 /* UpLoadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CB7ABE299A6D6A003446B3 /* UpLoadViewController.swift */; };
+		30F1227629A4FDFE001CF421 /* FeedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F1227529A4FDFE001CF421 /* FeedTableViewCell.swift */; };
+		30F1227829A50276001CF421 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F1227729A50276001CF421 /* Post.swift */; };
+		42A8E2435F4ED1C1E5B79833 /* Pods_21ParseFotografPaylasma.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4D22EA4F6B75A5D33A1A3A2 /* Pods_21ParseFotografPaylasma.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,14 @@
 		306C745E2995812F009E5CBD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		306C74612995812F009E5CBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		306C74632995812F009E5CBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30A9E0C529A026D80001026F /* AyarlarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AyarlarViewController.swift; sourceTree = "<group>"; };
+		30CB7ABC299A6D41003446B3 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		30CB7ABE299A6D6A003446B3 /* UpLoadViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpLoadViewController.swift; sourceTree = "<group>"; };
+		30F1227529A4FDFE001CF421 /* FeedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedTableViewCell.swift; sourceTree = "<group>"; };
+		30F1227729A50276001CF421 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		85A5127CB0F7ED8F32C19449 /* Pods-21ParseFotografPaylasma.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-21ParseFotografPaylasma.release.xcconfig"; path = "Target Support Files/Pods-21ParseFotografPaylasma/Pods-21ParseFotografPaylasma.release.xcconfig"; sourceTree = "<group>"; };
+		A276163FDDCA55F67909959F /* Pods-21ParseFotografPaylasma.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-21ParseFotografPaylasma.debug.xcconfig"; path = "Target Support Files/Pods-21ParseFotografPaylasma/Pods-21ParseFotografPaylasma.debug.xcconfig"; sourceTree = "<group>"; };
+		B4D22EA4F6B75A5D33A1A3A2 /* Pods_21ParseFotografPaylasma.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_21ParseFotografPaylasma.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42A8E2435F4ED1C1E5B79833 /* Pods_21ParseFotografPaylasma.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +57,8 @@
 			children = (
 				306C74542995812D009E5CBD /* 21ParseFotografPaylasma */,
 				306C74532995812D009E5CBD /* Products */,
+				CBC329BFF6B6A0778785505F /* Pods */,
+				EA5C3D59B289F0261FE45068 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,8 +80,30 @@
 				306C745E2995812F009E5CBD /* Assets.xcassets */,
 				306C74602995812F009E5CBD /* LaunchScreen.storyboard */,
 				306C74632995812F009E5CBD /* Info.plist */,
+				30CB7ABC299A6D41003446B3 /* FeedViewController.swift */,
+				30CB7ABE299A6D6A003446B3 /* UpLoadViewController.swift */,
+				30A9E0C529A026D80001026F /* AyarlarViewController.swift */,
+				30F1227529A4FDFE001CF421 /* FeedTableViewCell.swift */,
+				30F1227729A50276001CF421 /* Post.swift */,
 			);
 			path = 21ParseFotografPaylasma;
+			sourceTree = "<group>";
+		};
+		CBC329BFF6B6A0778785505F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A276163FDDCA55F67909959F /* Pods-21ParseFotografPaylasma.debug.xcconfig */,
+				85A5127CB0F7ED8F32C19449 /* Pods-21ParseFotografPaylasma.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EA5C3D59B289F0261FE45068 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B4D22EA4F6B75A5D33A1A3A2 /* Pods_21ParseFotografPaylasma.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +113,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 306C74662995812F009E5CBD /* Build configuration list for PBXNativeTarget "21ParseFotografPaylasma" */;
 			buildPhases = (
+				5E896BDC1BD0CFA58736CCD0 /* [CP] Check Pods Manifest.lock */,
 				306C744E2995812D009E5CBD /* Sources */,
 				306C744F2995812D009E5CBD /* Frameworks */,
 				306C74502995812D009E5CBD /* Resources */,
+				1E378E300DE626492A2397A2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,13 +174,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1E378E300DE626492A2397A2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-21ParseFotografPaylasma/Pods-21ParseFotografPaylasma-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-21ParseFotografPaylasma/Pods-21ParseFotografPaylasma-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-21ParseFotografPaylasma/Pods-21ParseFotografPaylasma-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5E896BDC1BD0CFA58736CCD0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-21ParseFotografPaylasma-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		306C744E2995812D009E5CBD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				306C745A2995812D009E5CBD /* ViewController.swift in Sources */,
+				30A9E0C629A026D80001026F /* AyarlarViewController.swift in Sources */,
+				30F1227629A4FDFE001CF421 /* FeedTableViewCell.swift in Sources */,
+				30F1227829A50276001CF421 /* Post.swift in Sources */,
+				30CB7ABF299A6D6A003446B3 /* UpLoadViewController.swift in Sources */,
 				306C74562995812D009E5CBD /* AppDelegate.swift in Sources */,
+				30CB7ABD299A6D41003446B3 /* FeedViewController.swift in Sources */,
 				306C74582995812D009E5CBD /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,6 +372,7 @@
 		};
 		306C74672995812F009E5CBD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A276163FDDCA55F67909959F /* Pods-21ParseFotografPaylasma.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -312,6 +401,7 @@
 		};
 		306C74682995812F009E5CBD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85A5127CB0F7ED8F32C19449 /* Pods-21ParseFotografPaylasma.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

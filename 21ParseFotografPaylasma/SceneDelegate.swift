@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import Parse
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
@@ -16,6 +17,25 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // Use this method to optionally configure and attach the UIWindow `window` to the provided UIWindowScene `scene`.
         // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
+        
+        //burada log lama işlemini yapıyoruz
+        let guncelKullanici = PFUser.current()
+        
+        if guncelKullanici != nil {
+            
+            //kullanıcı varsa giriş işlemini atlayıp başlangıç view controller'ı gösteren ok işaretini giriş ekranının önüne alıyoruz anyı firebase de olduğu gibi
+            
+            let board = UIStoryboard(name: "Main", bundle: nil)
+            let tabBarController = board.instantiateViewController(withIdentifier: "anaTabBar") as! UITabBarController
+            
+            window?.rootViewController = tabBarController
+            //buradan sonra log out yapabilmek için yine bir view controller ekleyip ona relationship-view controller segue si atıyoruz!
+            //normalde segue-show derdik burada relationship olanı kullanıyoruz
+        }
+        
+        
+        
+        
         guard let _ = (scene as? UIWindowScene) else { return }
     }
 
